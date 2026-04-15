@@ -2,7 +2,12 @@
     --color-principal: #38bdf8;
 }
 
-
+@font-face {
+    font-family: 'Orbitron';
+    src: url('fonts/Orbitron-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 body {
@@ -140,4 +145,7 @@ button:hover {
     margin-top: 15px;
     font-size: 14px;
     color: #94a3b8;
+}
+body {
+    outline: 1px solid red;
 }
