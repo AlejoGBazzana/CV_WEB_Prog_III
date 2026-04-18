@@ -100,11 +100,11 @@ li {
 
 .pagina {
     background-color: var(--main-background-color);
-    color: #e2e8f0;
+    color: var(--text-main);
     text-align: center;
     margin: 0;
     padding: 20px;
-    font-family: 'Orbitron', sans-serif;
+    font-family: var(--font-main);
 }
 
 
