@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>CV Web</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="pagina">
+<body class=".page">
     <header class="encabezado">
-    <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg" alt="Foto de perfil" class="foto">
+    <img src="img/perfil.jpg" alt="Foto de perfil" class="foto">
     <h1 class="nombre">Juan Pérez</h1>
     <p class="titulo">Desarrollador Web Junior</p>
     </header>
 
-<section class="sobre-mi">
+<section class="about-me">
     <h2>Sobre mí</h2>
     <p>Soy un desarrollador web en formación con interés en crear aplicaciones modernas, dinámicas y funcionales. Me apasiona aprender nuevas tecnologías y mejorar constantemente mis habilidades.</p>
 </section>
 
 
-<section class="experiencia">
+<section class="experience">
     <h2>Experiencia</h2>
     <p>Desarrollador Junior en 
-        <a href="https://www.microsoft.com" target="_blank">Microsoft</a>
+        <a href="https://www.microsoft.com" target="_blank" rel="noopener noreferrer">Microsoft</a>
     </p>
     <p>Contacto: 
         <a href="mailto:juanperez@gmail.com">juanperez@gmail.com</a>
@@ -30,7 +30,7 @@
 
 </section>
 
-    <section class="lista-habilidades">
+    <section class="skills">
         <h2>Habilidades</h2>
         <ul>
             <li>HTML</li>
@@ -39,21 +39,21 @@
         </ul>
     </section>
 
-    <h2>Proyectos</h2>
+    <h2 class="projects">Proyectos</h2>
     <p>Ver mis trabajos:</p>
-    <a href="https://github.com/AlejoGBazzana/CV_WEB_Prog_III" target="_blank">
-        Mi Hub de Apps
-    </a>
+<a href="https://github.com/AlejoGBazzana/CV_WEB_Prog_III" target="_blank" rel="noopener noreferrer">
+    Mi Hub de Apps
+</a>
 
-    <h2>Contacto</h2>
+    <h2 class="contact">Contacto</h2>
     <form>
-        <input class="campo" type="text" placeholder="Tu nombre">
-        <input class="campo" type="email" placeholder="Tu email">
-        <textarea class="campo" placeholder="Tu mensaje"></textarea>
-        <button class="boton" type="submit">Enviar</button>
+        <input class="field" type="text" placeholder="Tu nombre">
+        <input class="field" type="email" placeholder="Tu email">
+        <textarea class="field" placeholder="Tu mensaje"></textarea>
+        <button class="button" type="submit">Enviar</button>
     </form>
 
     <script src="script.js"></script>
-    <p class="contador">Tiempo en la página: 0 segundos</p>
+    <p class="counter">Tiempo en la página: 0 segundos</p>
 </body>
 </html>

@@ -1,15 +1,18 @@
-
-
 const boton = document.querySelector("button");
+const contador = document.querySelector(".contador");
 
-boton.addEventListener("click", function(event) {
-    event.preventDefault();
-    alert("Mensaje enviado (simulado)");
-});
+if (boton) {
+    boton.addEventListener("click", function (event) {
+        event.preventDefault();
+        alert("Mensaje enviado (simulado)");
+    });
+}
 
 let tiempo = 0;
 
-setInterval(function() {
+setInterval(function () {
     tiempo++;
-    document.querySelector(".contador").textContent = "Tiempo en la página: " + tiempo + " segundos";
+    if (contador) {
+        contador.textContent = `Tiempo en la página: ${tiempo} segundos`;
+    }
 }, 1000);
