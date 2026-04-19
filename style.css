@@ -74,10 +74,10 @@ input {
 }
 
 /* Contador */
-#contador {
-    margin-top: 0.9375rem;
-    font-size: 0.875rem;
-    color: var(--text-muted);
+#counter {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #94a3b8;
 }
 
 ul {
@@ -91,25 +91,34 @@ li {
 
 
 
-.foto {
-    width: 7.5rem;
-    height: 7.5rem;
+.photo {
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 50%;
 }
 
-.pagina {
-    background-color: var(--main-background-color);
-    color: var(--text-main);
+
+.page {
+    background-color: #0f172a;
+    color: #e2e8f0;
     text-align: center;
     margin: 0;
     padding: 20px;
     font-family: var(--font-main);
 }
 
+.button {
+    background-color: var(--color-principal);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
 
-.campo {
+.field {
     display: block;
     margin: 0.625rem auto;
     padding: 0.625rem;
@@ -118,14 +127,13 @@ li {
     width: 12.5rem;
 }
 
-
-.lista {
+.list {
     list-style: none;
     padding: 0;
 }
 
-.contador {
-    margin-top: 0.9375rem;
-    font-size: 0.875rem;
-    color: var(--text-muted);
+.counter {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #94a3b8;
 }
