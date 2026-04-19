@@ -24,11 +24,11 @@ body {
 }
 h1 {
     font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3125rem;
 }
 
 h2 {
-    margin-top: 1.5rem;
+    margin-top: 1.875rem;
     color: var(--color-principal);
 }
 
@@ -50,12 +50,11 @@ a:hover {
 button {
     background-color: var(--color-principal);
     color: black;
-    padding: 1.25rem;        /* 20px */
+    padding: 0.625rem 1.25rem;
     border: none;
-    border-radius: 0.5rem;   /* 8px */
+    border-radius: 0.5rem;
     cursor: pointer;
-    margin-top: 0.625rem;    /* 10px */
-    transition: transform 0.2s, box-shadow 0.2s;
+    margin-top: 0.625rem;
 }
 
 button:hover {
@@ -74,9 +73,9 @@ input {
 }
 
 /* Contador */
-#counter {
-    margin-top: 15px;
-    font-size: 14px;
+#contador {
+    margin-top: 0.95rem;
+    font-size: 0.87rem;
     color: #94a3b8;
 }
 
@@ -86,14 +85,14 @@ ul {
 }
 
 li {
-    margin: 0.3125rem 0;
+    margin: 0.30rem 0;
 }
 
 
 
-.photo {
-    width: 120px;
-    height: 120px;
+.foto {
+    width: 7.5rem;
+    height: 7.5rem;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -104,16 +103,16 @@ li {
     color: #e2e8f0;
     text-align: center;
     margin: 0;
-    padding: 20px;
-    font-family: var(--font-main);
+    padding: 1.25rem;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .button {
     background-color: var(--color-principal);
     color: black;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     border: none;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     cursor: pointer;
 }
 
@@ -132,8 +131,8 @@ li {
     padding: 0;
 }
 
-.counter {
-    margin-top: 15px;
-    font-size: 14px;
+.contador {
+    margin-top: 0.95rem;
+    font-size: 0.875rem;
     color: #94a3b8;
 }
