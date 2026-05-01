@@ -73,7 +73,7 @@ input {
 }
 
 /* Contador */
-#contador {
+.counter {
     margin-top: 0.95rem;
     font-size: 0.87rem;
     color: #94a3b8;
@@ -90,7 +90,7 @@ li {
 
 
 
-.foto {
+.profile-pic{
     width: 7.5rem;
     height: 7.5rem;
     object-fit: cover;
@@ -131,7 +131,7 @@ li {
     padding: 0;
 }
 
-.contador {
+.counter {
     margin-top: 0.95rem;
     font-size: 0.875rem;
     color: #94a3b8;
