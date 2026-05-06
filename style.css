@@ -7,7 +7,7 @@
 
 :root {
     --main-background-color: #0f172a;
-    --color-principal: #38bdf8;
+    --main-color: #38bdf8;
     --text-main: #e2e8f0;
     --text-soft: #cbd5f5;
     --text-muted: #94a3b8;
@@ -29,7 +29,7 @@ h1 {
 
 h2 {
     margin-top: 1.875rem;
-    color: var(--color-principal);
+    color: var(--main-color;
 }
 
 p {
@@ -38,7 +38,7 @@ p {
 
 /* Links */
 a {
-    color: var(--color-principal);
+    color: var(--main-color);
     text-decoration: none;
     font-weight: bold;
 }
@@ -48,7 +48,7 @@ a:hover {
 }
 
 button {
-    background-color: var(--color-principal);
+    background-color: var(--main-color);
     color: black;
     padding: 0.625rem 1.25rem;
     border: none;
@@ -60,7 +60,7 @@ button {
 button:hover {
     background-color: var(--color-hover);
     transform: scale(1.05);
-    box-shadow: 0 0 0.625rem var(--color-principal); /* 10px */
+    box-shadow: 0 0 0.625rem var(--main-color); /* 10px */
 }
 /* Inputs */
 input {
@@ -108,7 +108,7 @@ li {
 }
 
 .button {
-    background-color: var(--color-principal);
+    background-color: var(--main-color);
     color: black;
     padding: 0.625rem 1.25rem;
     border: none;
