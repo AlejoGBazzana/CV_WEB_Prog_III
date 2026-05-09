@@ -20,7 +20,7 @@ body {
     color: var(--text-main);
     text-align: center;
     margin: 0;
-    padding: 20px;
+    padding: 1.25rem;
 }
 h1 {
     font-size: 2.5rem;
@@ -76,7 +76,7 @@ input {
 .counter {
     margin-top: 0.95rem;
     font-size: 0.87rem;
-    color: #94a3b8;
+    color: var(--text-muted-color);
 }
 
 ul {
@@ -129,10 +129,4 @@ li {
 .list {
     list-style: none;
     padding: 0;
-}
-
-.counter {
-    margin-top: 0.95rem;
-    font-size: 0.875rem;
-    color: #94a3b8;
 }
