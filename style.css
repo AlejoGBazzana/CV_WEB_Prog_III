@@ -7,17 +7,17 @@
 
 :root {
     --main-background-color: #0f172a;
-    --color-principal: #38bdf8;
-    --text-main: #e2e8f0;
-    --text-soft: #cbd5f5;
-    --text-muted: #94a3b8;
-    --color-hover: #0ea5e9;
+    --color-principal-color: #38bdf8;
+    --text-main-color: #e2e8f0; 
+    --text-soft-color: #cbd5f5; 
+    --text-muted-color: #94a3b8;
+    --color-hover-color: #0ea5e9;
     --font-main: 'Orbitron', sans-serif;
 }  
 body {
     font-family: var(--font-main);
     background-color: var(--main-background-color);
-    color: var(--text-main);
+    color: var(--text-main-color);
     text-align: center;
     margin: 0;
     padding: 1.25rem;
@@ -29,26 +29,26 @@ h1 {
 
 h2 {
     margin-top: 1.875rem;
-    color: var(--color-principal);
+    color: var(--color-principal-color);
 }
 
 p {
-    color: var(--text-soft);
+    color: var(--text-soft-color);
 }
 
 /* Links */
 a {
-    color: var(--color-principal);
+    color: var(--color-principal-color);
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: var(--color-hover);
+    color: var(--color-hover-color);
 }
 
 button {
-    background-color: var(--color-principal);
+    background-color: var(--color-principal-color);
     color: black;
     padding: 0.625rem 1.25rem;
     border: none;
@@ -58,9 +58,9 @@ button {
 }
 
 button:hover {
-    background-color: var(--color-hover);
+    background-color: var(--color-hover-color);
     transform: scale(1.05);
-    box-shadow: 0 0 0.625rem var(--color-principal);
+    box-shadow: 0 0 0.625rem var(--color-principal-color); /* 10px */
 }
 /* Inputs */
 input {
@@ -108,7 +108,7 @@ li {
 }
 
 .button {
-    background-color: var(--color-principal);
+    background-color: var(--color-principal-color);
     color: black;
     padding: 0.625rem 1.25rem;
     border: none;
