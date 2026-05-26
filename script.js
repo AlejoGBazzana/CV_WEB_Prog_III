@@ -1,5 +1,5 @@
 const button = document.querySelector("button");
-const counter = document.querySelector(".contador");
+const counter = document.querySelector(".counter");
 
 if (button) {
     button.addEventListener("click", function (event) {
